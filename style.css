@@ -1,0 +1,36 @@
+header{
+  text-align: center;
+}
+.a{
+  justify-content: center;
+  display:flex;
+  }
+.b{
+  width: 20%;
+  box-shadow: 1px 1px 1px 1px black;
+  margin: 2%;
+  padding:2%;
+  text-align: center;
+  justify-content: space-around;
+  background-color: #cc99ff;
+}
+img{
+  margin: 3%;
+  border-radius: 20%;
+}
+@media (min-device-width:320px) and (max-device-width:480px){
+.a{
+  flex-wrap: wrap;
+}
+.b{
+  width: 100%;
+}
+}
+@media (min-device-width:481px) and (max-device-width:780px){
+  .a{
+    justify-content: space-around;
+  }
+  .b{
+    width:100%;
+  }
+}
